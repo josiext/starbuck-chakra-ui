@@ -12,8 +12,9 @@ export default function Presentation() {
       bgSize="cover"
       display="flex"
       alignItems="center"
+      px="var(--mg-content)"
     >
-      <Box ml="10">
+      <Box>
         <Heading as="h1" size="lg" textTransform="uppercase">
           Free coffee <br /> is a tap away
         </Heading>

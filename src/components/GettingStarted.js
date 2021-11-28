@@ -2,13 +2,13 @@ import { Box, Text, Heading, Image, HStack } from '@chakra-ui/react';
 
 export default function GettingStarted() {
   return (
-    <Box py="100px">
+    <Box py="100px" px="var(--mg-content)">
       <Box display="flex" flexDirection="column" alignItems="center">
         <Heading as="h2">Getting started is easy</Heading>
         <Text mt="4">Earn Stars and get rewarded in a few easy steps.</Text>
       </Box>
 
-      <HStack mt="12" display="flex">
+      <HStack mt="12" display="flex" spacing="12">
         <Steps number="1" title="Create an account">
           <Text>
             To get started, join now. You can also join in the app to get access

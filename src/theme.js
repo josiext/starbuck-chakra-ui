@@ -1,6 +1,10 @@
 import { extendTheme } from '@chakra-ui/react';
 
 export default extendTheme({
+  fonts: {
+    heading: 'SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;',
+    body: 'SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;',
+  },
   colors: {
     brand: {
       100: '#f7fafc',

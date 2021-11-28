@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChakraProvider } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 
 import Header from './components/Header';
 import Presentation from './components/Presentation';
@@ -9,9 +10,11 @@ import theme from './theme';
 export default function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Header />
-      <Presentation />
-      <GettingStarted />
+      <Box sx={{ '--mg-content': '12%' }}>
+        <Header />
+        <Presentation />
+        <GettingStarted />
+      </Box>
     </ChakraProvider>
   );
 }

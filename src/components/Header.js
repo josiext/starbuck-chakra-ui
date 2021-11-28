@@ -4,9 +4,9 @@ import { Box, Text, Link, HStack } from '@chakra-ui/react';
 
 export default function Header() {
   return (
-    <Box position="sticky" top="0" zIndex="100">
+    <Box position="sticky" top="0" zIndex="100" px="central">
       <Box
-        bg="#FFF"
+        bgColor="#FFF"
         h="100px"
         fontSize="l"
         display="flex"
@@ -15,6 +15,7 @@ export default function Header() {
         pr="10"
         pl="10"
         fontWeight="bold"
+        px="var(--mg-content)"
       >
         <HStack spacing="24px">
           <Link w="51px" alignSelf="center">
@@ -36,14 +37,14 @@ export default function Header() {
           <Link>Join now</Link>
         </HStack>
       </Box>
-      <Box h="50px" bg="rgb(30,57,50)" display="flex" alignItems="center">
-        <Text
-          color="#fff"
-          fontWeight="bold"
-          w="100%"
-          ml="12%"
-          textTransform="uppercase"
-        >
+      <Box
+        h="50px"
+        bg="rgb(30,57,50)"
+        display="flex"
+        alignItems="center"
+        px="var(--mg-content)"
+      >
+        <Text color="#fff" fontWeight="bold" w="100%" textTransform="uppercase">
           Starbucks® Rewards
         </Text>
       </Box>
