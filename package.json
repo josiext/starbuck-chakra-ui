@@ -1,6 +1,7 @@
 {
   "name": "starbuck-chakra-ui",
   "version": "1.0.0",
+  "description": "Starbuck clone with Chakra UI",
   "dependencies": {
     "@chakra-ui/react": "1.7.2",
     "@emotion/react": "11.7.0",
